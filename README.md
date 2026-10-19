@@ -54,3 +54,13 @@ The dashboard tracks several critical high-level metrics across the organization
 
 ## 🔒 Confidentiality & NDA Note
 > *Note: Due to data privacy, organizational security policies, and Non-Disclosure Agreements (NDA), the raw `.pbix` Power BI source file and proprietary organizational datasets are confidential and not included in this public repository. Only visual previews and structural documentation are showcased.*
+---
+
+## 💼 Work Opportunities & Contact Information
+
+I am a **Data Analyst** specializing in building high-impact Power BI solutions, DAX modeling, custom UI design, and operational dashboards.
+
+🟢 **Available for Freelance Projects & Full-Time Job Opportunities.**
+
+* **Phone / WhatsApp:** [+966 56 302 0230](https://wa.me/966563020230)
+* **LinkedIn Profile:** [Belal Farrag on LinkedIn](https://www.linkedin.com/in/belal-farrag-b976b01a4/)
