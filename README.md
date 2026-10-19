@@ -1,80 +1,56 @@
-# Health Holding Company | Cluster PS Executive Dashboard 🩺📊
+# Health Holding Company | Cluster PS Executive Dashboard 🩺 📊
 
-![Landing Page](01-Landing.png.jpg)
+![Landing Page](01-Landing.png.png)
 
 An executive Data & Analytics solution designed for the **Health Holding Company (شركة الصحة القابضة)** to monitor, evaluate, and track operational performance, compliance, and clinical quality metrics across medical clusters and departments.
 
 ---
 
-## 🌟 Executive Summary
+## 🌟 Overview
 
-This interactive dashboard serves as a central intelligence hub for healthcare executives and quality managers. Built with precision and structured around key healthcare operational indicators, it translates complex compliance standards and patient safety metrics into actionable visual insights.
+This Power BI dashboard serves as a comprehensive command center for leadership and operational teams. It provides deep visibility into hospital/cluster compliance standards, clinical tracer scopes, and performance metrics, ensuring high-standard healthcare delivery and continuous quality improvement.
 
-> **Note on Data Privacy:** Due to non-disclosure agreements (NDA) and medical data privacy regulations, raw datasets and original `.pbix` files are kept confidential. Visual previews and structural descriptions below showcase the design system, analytical framework, and technical architecture.
-
----
-
-## 📸 Interactive Dashboard Views
-
-### 1. Landing & Navigation Interface
-The project opens with an elegant, modern **Glassmorphic Landing Page** featuring custom UI/UX elements, branding guidelines, and smooth page navigation tailored for enterprise executive presentation.
-
-![Landing Page View](01-Landing.png.jpg)
-
-### 2. Cluster PS Executive Dashboard
-A unified operational workspace featuring key performance indicators (KPIs), dynamic slices, departmental progress bars, and priority-level breakdowns.
-
-![Cluster PS Executive View](02-Cluster-PS-Executive.png.png)
+![Cluster PS Executive Dashboard](02-Cluster-PS-Executive.png.png)
 
 ---
 
-## 🔑 Key Features & Analytical Capabilities
+## 📊 Key Performance Indicators & Metrics (KPIs)
 
-* **High-Level Executive Metrics (KPIs):**
-  * Total Required Standards tracking.
-  * Overall Average Performance (%) and Completion Rate (%).
-  * Real-time counter for Completed vs. Incomplete elements.
-* **Departmental Performance Breakdown:**
-  * Completion percentage across key hospital departments (WARD, MAT, OR & PACU, PHARMA, FMS, RD, ICU, OPD, etc.).
-* **Tracer Scope & Clinical Protocol Analysis:**
-  * Performance evaluation across critical clinical domains including *Cleanliness*, *Clinical Protocols*, *Patient Engagement*, *Sterility*, *Isolation*, and *Surveillance*.
-* **Risk & Priority Level Segmentation:**
-  * Categorization of compliance elements by severity (**High**, **ESR**, **Medium**).
-* **Detailed Evaluation Matrix:**
-  * Granular detail table listing criteria descriptions, priority badges, average execution scores, and completion progress bars.
-* **Executive Navigation & Slicers:**
-  * Multi-tier dynamic filters (Maturity Status, Department/Departmental Unit, Priority Level) with a single-click reset feature.
+The dashboard tracks several critical high-level metrics across the organization:
+* **Total Required Criteria (إجمالي عدد المعايير المطلوبة):** 95
+* **Total Criteria (عدد المعايير):** 307
+* **Average Performance (متوسط الأداء):** 56.94%
+* **Completion Rate (نسبة الاكتمال):** 61.05%
+* **Completed Elements (عدد العناصر المكتملة):** 58
+* **Incomplete Elements (عدد العناصر غير المكتملة):** 89
 
 ---
 
-## 🛠️ Technical Stack & Methods
+## 🚀 Key Features & Visualizations
 
-* **Business Intelligence:** Power BI Desktop
-* **UI/UX & Graphics Design:** Modern Glassmorphism layout design, custom theme palettes, CSS/Figma background styling.
-* **Data Transformation & Modeling:** Data cleaning, normalization, star-schema modeling, and conditional priority logic.
-* **DAX (Data Analysis Expressions):**
-  * Custom measures for weighted average compliance scores.
-  * Dynamic percentage calculation based on tracer completion status.
-  * Time-intelligence and last-update timestamp tracking (`LastUpdate`).
-
----
-
-## 📂 Project Structure
-
-```text
-├── README.md                          # Project documentation
-├── 01-Landing.png.jpg                  # Dashboard Landing Page Preview
-└── 02-Cluster-PS-Executive.png.png    # Executive Operational Dashboard Preview
-```
+1. **Department Completion Breakdown (نسبة الاكتمال حسب الإدارة):** Bar charts showing completion percentages across various departments/clusters (e.g., WARD, MAT, OR & PARM, PHARMA, FMS, RD, CODE, NICU, LAB, IPC, ICU, OPD, MH, ED, GOV).
+2. **Criteria Performance (أداء المعايير):** Detailed tracking of performance for specific clinical protocols and safety measures (e.g., Time-Out performance, Adequate depth, Airway managed, BVM used, Clear location).
+3. **Tracer Scope Performance Analysis (تحليل الأداء حسب نطاق التتبع):** Evaluation across major operational and clinical scopes such as:
+   - Cleanliness
+   - MRI Safety
+   - Patient Engagement
+   - Staffing & Comp.
+   - Isolation
+   - Sterility
+4. **Priority-Based Criteria Status (حالة المعايير بناءً على درجة الأولوية):** Donut/Pie breakdown categorized by priority levels (**High**, **ESR**, **Medium**).
+5. **Complete vs. Incomplete Tracer Statistics (إحصاء المعايير المكتملة مقابل غير المكتملة):** Visual representation of completed tracers (`complete_Tracer`) versus incomplete tracers (`not_complete_Tracer`).
+6. **Tracer Assessment Details Table (سجل تفاصيل تقييم المعايير):** A comprehensive grid displaying Tracer Scope, English Criteria description, Priority, Average %, and Completion %.
+7. **Interactive Filtering System (قسم التصفية):** Dynamic slicers and filters for filtering by Criterion Maturity State, Department/Administration, and Priority Level, complete with a quick reset button ("إزالة الفلاتر").
 
 ---
 
-## 👤 Author & Contact
+## 🛠️ Technical Stack & Design
 
-**Belal Farrag**  
-*Data & Analytics Professional*  
-- **GitHub:** [@belalfarrag95](https limitation="https://github.com/belalfarrag95")  
-- **LinkedIn:** [Belal Farrag](https://www.linkedin.com/in/belal-farrag/)  
+* **Tool:** Microsoft Power BI
+* **Design Philosophy:** Dark Glassmorphic UI featuring sleek dark-blue gradients, glowing card elements, and a clean medical aesthetic tailored for executive stakeholders.
+* **Data Modeling:** Star schema architecture integrating multiple operational and compliance data sources.
 
 ---
-*Disclaimer: All logos, brands, and registered trademarks displayed are property of their respective owners and used solely for portfolio demonstration purposes.*
+
+## 🔒 Confidentiality & NDA Note
+> *Note: Due to data privacy, organizational security policies, and Non-Disclosure Agreements (NDA), the raw `.pbix` Power BI source file and proprietary organizational datasets are confidential and not included in this public repository. Only visual previews and structural documentation are showcased.*
